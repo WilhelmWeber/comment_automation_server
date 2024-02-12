@@ -1,0 +1,35 @@
+<div class="entry-content">
+    <h2>演習（大学院ゼミ）の記録</h2>
+    <h3>【論文分析】</h3>
+    <h4>
+        <a href="<%= paper_uri %>" target="_blank" rel="noopener">
+            <%= paper_title %>
+        </a>
+    </h4>
+    <p><%= paper_comment %></p>
+    <h3>【書評紹介】</h3>
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+        <div class="c-message__message_blocks c-message__message_blocks--rich_text" data-qa="message-text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                    <div class="p-rich_text_block" dir="auto">
+                        <h4>
+                            <a href="<%= reviewed_book_url %>" target="_blank" rel="noopener">
+                                <%= reviewed_book_title %>
+                            </a>
+                        </h4>
+                        <h5>
+                            <a href="<%= review_url %>" target="_blank" rel="noopener">
+                                <%= review_info %>
+                            </a>
+                        </h5>
+                        <div><%= review_comment %></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3>【研究発表】</h3>
+    <h4><%= research_title %></h4>
+    <p><%= research_comment %></p>
+</div>
